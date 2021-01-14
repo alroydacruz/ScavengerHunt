@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/main_frag_bg"
+        android:layout_width="match_parent"
+        app:lottie_autoPlay="true"
+
+        app:lottie_loop="true"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_pager"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:fontFamily="@font/arapey"
+        android:text="Creativity is intelligence having fun"
+        android:textAlignment="center"
+        android:textColor="#870D80"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/arapey"
+        android:text="~ Einstein"
+        android:textAlignment="center"
+        android:textColor="#870D80"
+        android:textSize="19dp" />
+
+</RelativeLayout>

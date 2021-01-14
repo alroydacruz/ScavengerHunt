@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112568025179",
+    "firebase_url": "https://scavengerhunt-1a6ac.firebaseio.com",
+    "project_id": "scavengerhunt-1a6ac",
+    "storage_bucket": "scavengerhunt-1a6ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112568025179:android:03b12e138c14d15be7ff7e",
+        "android_client_info": {
+          "package_name": "com.alroy.viewpager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112568025179-dc3mbsvfi1qgj7s3oa3hjf1ntdcuus1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alroy.viewpager",
+            "certificate_hash": "d8b7af7ccd23aabb3c51b4155b1acf2a19b09f4a"
+          }
+        },
+        {
+          "client_id": "112568025179-mc29q3b80pbq3ccvdlb30fhr0jghc64d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYcqVoKhwuRUdRcXecArFDujgkGJR-em8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112568025179-mc29q3b80pbq3ccvdlb30fhr0jghc64d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

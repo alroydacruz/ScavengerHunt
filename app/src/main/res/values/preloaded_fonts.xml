@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/allura</item>
+        <item>@font/amaranth</item>
+        <item>@font/arapey</item>
+        <item>@font/armata</item>
+        <item>@font/baloo_bhaina</item>
+        <item>@font/faster_one</item>
+    </array>
+</resources>
